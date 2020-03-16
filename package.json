@@ -1,0 +1,45 @@
+{
+  "name": "queuery",
+  "version": "1.0.0",
+  "main": "dist/cjs/index.js",
+  "repository": "https://github.com/erioifpud/queuery",
+  "module": "dist/esm/index.js",
+  "author": "Erioifpud <erioifpud@zuo.si>",
+  "license": "MIT",
+  "browser": {
+    "./dist/cjs/index.js": "./dist/umd/index.js",
+    "./dist/esm/index.js": "./dist/esm/index.js"
+  },
+  "keywords": [
+    "concurrency",
+    "concurrent",
+    "task",
+    "asynchronous",
+    "async"
+  ],
+  "unpkg": "dist/umd/index.min.js",
+  "jsdelivr": "dist/umd/index.min.js",
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js",
+    "test": "mocha --require mocha.babel"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/register": "^7.8.6",
+    "chai": "^4.2.0",
+    "debounce": "^1.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^7.1.0",
+    "rollup": "^2.0.6",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
