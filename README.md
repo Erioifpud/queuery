@@ -1,7 +1,7 @@
 # Queuery
-[![Build Status](https://travis-ci.org/Erioifpud/erio-vuex-persist.svg?branch=master)](https://travis-ci.org/Erioifpud/erio-vuex-persist)
-[![npm](https://img.shields.io/npm/v/erio-vuex-persist.svg?color=red)](http://npmjs.com/erio-vuex-persist)
-[![license](https://img.shields.io/github/license/erioifpud/erio-vuex-persist.svg)]()
+[![Build Status](https://travis-ci.org/Erioifpud/queuery.svg?branch=master)](https://travis-ci.org/Erioifpud/queuery)
+[![npm](https://img.shields.io/npm/v/queuery.svg?color=red)](http://npmjs.com/queuery)
+[![license](https://img.shields.io/github/license/erioifpud/queuery.svg)]()
 
 迷你的并发 Promise 处理器，可以**限制同时运行**的任务数量，默认有**错误重试**功能。
 
