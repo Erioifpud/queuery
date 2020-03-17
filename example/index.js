@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-const Queuery = require('../dist/umd')
+const Queuery = require('../dist/umd').default
 
 function normal () {
   const q = new Queuery()

@@ -1,6 +1,6 @@
 {
   "name": "queuery",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/cjs/index.js",
   "description": "迷你的并发 Promise 处理器",
   "repository": "https://github.com/erioifpud/queuery",

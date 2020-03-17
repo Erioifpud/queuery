@@ -14,7 +14,8 @@ yarn add queuery
 
 ## 例子
 ```javascript
-const Queuery = require('queuery')
+// import Queuery from 'queuery'
+const Queuery = require('queuery').default
 
 const q = new Queuery({
   // 并发数量，默认为 3
