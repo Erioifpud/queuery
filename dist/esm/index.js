@@ -241,4 +241,3 @@ var Queuery = /*#__PURE__*/function () {
 }();
 
 export default Queuery;
-//# sourceMappingURL=index.js.map

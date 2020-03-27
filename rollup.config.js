@@ -6,7 +6,7 @@ const genConfig = (config) => {
     input: 'src/index.js',
     output: {
       name: 'Queuery',
-      sourcemap: true,
+      sourcemap: false,
       exports: 'named',
       ...config
     },

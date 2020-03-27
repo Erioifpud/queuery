@@ -248,4 +248,3 @@ var Queuery = (function (exports) {
   return exports;
 
 }({}));
-//# sourceMappingURL=index.js.map
